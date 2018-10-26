@@ -1,6 +1,6 @@
-# presupuestos
+# Interfaz IDS
 
-> Aplicacion para gestionar los presupuestos de autocares Gelo
+> Interfaz que muestra el trafico de la red a tiempo real por websockets 
 
 ## Build Setup
 
