@@ -61,7 +61,7 @@ export default {
           sortable: false
         },
         {
-          text: 'frame.cap_len',
+          text: 'MQTT.msgtype',
           sortable: false
         },
         {
