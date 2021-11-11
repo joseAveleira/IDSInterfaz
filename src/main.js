@@ -12,10 +12,12 @@ import 'vuetify/dist/vuetify.min.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 import store from '@/store'
 import VueSocketio from 'vue-socket.io'
+import VueApexCharts from 'vue-apexcharts'
 Vue.use(VueSocketio, `${process.env.SOKETS}`)
-
+Vue.use(VueApexCharts)
 Vue.use(Vuetify)
 Vue.config.productionTip = false
+Vue.component('apexchart', VueApexCharts)
 
 /* eslint-disable no-new */
 new Vue({
